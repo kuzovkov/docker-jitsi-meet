@@ -31,7 +31,7 @@ In order to quickly run Jitsi Meet on a machine running Docker and Docker Compos
 follow these steps:
 
 * Clone this repository to your computer.
-  * `git clone https://github.com/jitsi/docker-jitsi-meet && cd docker-jitsi-meet`
+  * `git clone https://github.com/kuzovkov/docker-jitsi-meet && cd docker-jitsi-meet`
 * Create a ``.env`` file by copying and adjusting ``env.example``
   * `cp env.example .env`
   * Set strong passwords in the security section options: `./gen-passwords.sh`
